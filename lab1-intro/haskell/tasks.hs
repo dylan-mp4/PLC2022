@@ -1,13 +1,10 @@
--- The following function definition contains a syntax error:
--- (To enable the code, delete contents of lines 10 and 3.)
-{-
 sayHello :: IO ()
 sayHello =
   do
   let name = "Alice"
-   putStrLn "hello"
+  putStrLn "hello"
   putStrLn name
--}
+
 
 ask :: String -> IO ()
 ask prompt =
